@@ -1,6 +1,6 @@
 # Numeros Complejos
 
-Una libreria capaz de realizar las operaciones basicas entre numeros complejos (suma, resta, producto, divison) y otras mas que pueden ser de mucha ayuda en la computacion cuantica
+Una libreria capaz de realizar las operaciones basicas entre numeros complejos (suma, resta, producto, division) y otras mas que pueden ser de mucha ayuda en la computacion cuantica
 
 ## Como Empezar
 
