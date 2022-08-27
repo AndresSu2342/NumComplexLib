@@ -1,87 +1,84 @@
-# Project Title
+# Numeros Complejos
 
-One Paragraph of project description goes here
+Una libreria capaz de realizar las operaciones basicas entre numeros complejos (suma, resta, producto, divison) y otras mas que pueden ser de mucha ayuda en la computacion cuantica
 
-## Getting Started
+## Como Empezar
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Para poder usarla solo en necesario descargar el archivo de la libreria (NumComplexLib.py) y importarlo dentro del programa
 
-### Prerequisites
+### Prerequisitos
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+- Phyton
+- Editor de codigo
 
 ```
-Give the example
+Visual Studio Code, PyCharm, etc
 ```
 
-And repeat
+### Instalando
+
+1. Abrir el repositorio de github 
+2. Descargar el archivo NumComplexLib.py y guardarlo en la misma carpeta donde tenga su programa
+3. Despues dentro del programa importar la libreria 
+4. Llamar las funciones que requiera y digitar como argumentos el o los numeros complejos a operar
 
 ```
-until finished
+import NumComplexLib
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Y llamar la funcion
 
 ```
-Give an example
+print(NumComplexLib.SumaComplejos([5,2],[4,7]))
 ```
 
-### And coding style tests
+Los numeros complejos poseen dos partes (real y imaginaria), por lo tanto deben argumentarlas dentro de un vector ambas partes para que se ejecute correctamente la funcion
 
-Explain what these tests test and why
+## Ejecutando las funciones
+
+La Libreria contiene en total 9 funciones (suma, resta, producto, division, modulo, conjugado, fase, representacion polar, representacion cartesiana)
+
+### Nombres de las funciones
+
+Todas empiezan por la primera letra de cada palabra en mayuscula
 
 ```
-Give an example
+SumaComplejos, ProductoComplejos, RestaComplejos, DivisionComplejos, ModuloComplejos, ConjugadoComplejos, FaseComplejos, RepresentacionPolar, RepresentacionCartesiana
 ```
 
-## Deployment
+### Argumentos
 
-Add additional notes about how to deploy this on a live system
+Para las operaciones basicas es necesario que sean dos argumentos, es decir dos numeros complejos para realizarse, sin embargo para las demas solo se requiere un numero complejo debido a que son conversiones o operaciones que solo aplican a un numero complejo
 
-## Built With
+```
+SumaComplejos(n1,n2), ProductoComplejos(n1,n2), ModuloComplejos(n1), FaseComplejos(n1)
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Adicionales
 
-## Contributing
+Para digitar la parte imaginaria no es necesario poner el simbolo caracteristico de esta (i), solo el digito
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Construido con
 
-## Versioning
+* [Phyton](https://www.python.org/) - Lenguaje de programacion
+* [Pycharm](https://www.jetbrains.com/es-es/pycharm/) - IDE de python
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Contribuyendo
 
-## Authors
+Estaremos abiertos a cualquier tipo de sugerencia o reclamo sobre el uso de la libreria, para asi ir mejorando cada vez mas
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+## Versionado
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Nosotros usamos [github](https://github.com/AndresSu2342/NumComplexLib) para el versionado de la libreria. Solo estara disponible la version mas reciente
 
-## License
+## Autores
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Cesar Borray** - *Estudiante* - [Escuela Colombiana de Ingenieria](https://www.escuelaing.edu.co/es/)
 
-## Acknowledgments
+## Licencia
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Esta libreria es de uso gratuito, aunque todos los derechos de copyright son reservados
+
+## Expresiones de gratitud
+
+* Libreria apoyada por Luis Daniel Benavides Navarro (Profesor)
